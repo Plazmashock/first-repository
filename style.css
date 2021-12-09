@@ -1,0 +1,32 @@
+h6 {
+  color: rgb(226, 14, 14);
+  font-size: 50px;
+  font-weight: 600;
+}
+span {
+  color: black;
+}
+button {
+  font-size: 30px;
+  background-color: blue;
+  color: white;
+  transition: 0.2s;
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+}
+button:hover {
+  cursor: pointer;
+  border-radius: 10%;
+}
+.primary {
+  background-color: violet;
+}
+.dead {
+  filter: grayscale(1);
+  transition: 2s;
+}
+.dead:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+}
