@@ -46,15 +46,19 @@ header {
   padding-bottom: 20px;
 }
 .survey {
-  background-color: rgba(0, 0, 0, 0.342);
-  margin-left: 500px;
-  margin-right: 500px;
-  border-radius: 5%;
+  background-color: rgba(0, 0, 0, 0.178);
+  margin-left: 550px;
+  margin-right: 550px;
+  border-radius: 2%;
   margin-bottom: 20px;
+  margin-top: 20px;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .titles {
   font-size: 50px;
-  margin-bottom: -3px;
+  margin-bottom: 10px;
 }
 input {
   padding: 10px;
